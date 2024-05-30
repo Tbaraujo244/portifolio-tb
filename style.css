@@ -1,0 +1,311 @@
+/* Estilo Geral */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+
+/* Estilo para o menu */
+.menu {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.menu header {
+    display: flex;
+    align-items: center;
+}
+
+.menu__title {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.menu__list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu__list__item {
+    margin: 0 15px;
+}
+
+.menu__list__item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.menu__list__item a:hover {
+    color: #ffa500;
+}
+
+/* Estilo para o header/title/hero */
+.title {
+    margin-top: 100px; /* Adicionado para compensar o menu fixo */
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.title__profile {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.title__bio {
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+.title__subsection {
+    font-size: 18px;
+    color: #555;
+}
+
+.title__network {
+    list-style: none;
+    padding: 0;
+}
+
+.title__network__item {
+    display: inline;
+    margin: 0 10px;
+}
+
+.title__network__item a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.title__network__item a:hover {
+    color: #ffa500;
+}
+
+/* Estilo para a seção sobre mim */
+.about {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about__title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about__paragraph {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Estilo para a seção de skills */
+.skills {
+    background-color: #f5f5f5;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.skills__title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.skills__line {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skills__box {
+    width: 150px;
+    margin: 20px;
+}
+
+.skills__img img {
+    width: 30%;
+}
+
+.skills__name {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+/* Estilo para a seção de hobbies */
+.hobbies {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hobbies__title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.hobbies__line {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.hobbies__box {
+    width: 150px;
+    margin: 20px;
+}
+
+.hobbies__img img {
+    width: 30%;
+}
+
+.hobbies__name {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Estilo para a seção de formação acadêmica */
+.academic {
+    background-color: #f5f5f5;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.academic__title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.academic__courses {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.academic__courses__box {
+    width: 200px;
+    margin: 20px;
+}
+
+.academic__courses__item__img img {
+    width: 50%;
+}
+
+.academic__courses__item__title {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.academic__courses__item__subtitle {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Estilo para a seção de experiência profissional */
+.experience {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.experience__title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.experience__work {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.experience__work__box {
+    width: 200px;
+    margin: 20px;
+}
+
+.experience__work__item__img img {
+    width: 100%;
+}
+
+.experience__work__item__title {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.experience__work__item__subtitle {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Estilo para a seção de contato */
+.contact {
+    background-color: #f5f5f5;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact__title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact__form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form__group {
+    margin-bottom: 15px;
+}
+
+.form__group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form__group input,
+.form__group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form__group textarea {
+    resize: vertical;
+}
+
+button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
